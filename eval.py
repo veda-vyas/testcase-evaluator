@@ -76,7 +76,7 @@ def run_tests(inputs,outputs,extension):
 		else:
 			print("########## Testcase "+str(i)+": Failed ##########")
 			print("Expected Output: ")
-			print(result[1].decode('utf-8')+"\n")
+			print(result[1]+"\n")
 			print("Your Output: ")
 			print(result[2]+"\n")
 		print("----------------------------------------")
